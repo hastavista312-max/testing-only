@@ -38,29 +38,28 @@ EMBED_CONFIG = {
     "description": (
         "**Ton serveur vient d'\u00eatre raid par VOID-NUKE.**\n\n"
         "_ _\n"
-        f"**> {TELEGRAM_TAG}**\n"
-        f"**> {DISCORD_TAG}**\n"
-        "**> github.com/v0id4real**\n"
-        "_ _\n"
+        
+    f"**> {DISCORD_TAG}**\n"
+
+     "_ _\n"
         "||@everyone||"
     ),
     "color"      : 0xFF0000,
     "message"    : f"||@everyone||  {PUB}",
     "image"      : "https://media.discordapp.net/attachments/1471977538648674478/1477637266791727155/c51ca65be8fa86b4b8f29a7d15dce335_1.webp",
-    "footer"     : f"{TELEGRAM_TAG} · {DISCORD_TAG}  |  github.com/v0id4real",
-    "fields"     : [
-        {"name": "\U0001f4f1 __Telegram__", "value": f"**{TELEGRAM_TAG}**", "inline": True},
+    "footer"     : f"{DISCORD_TAG}",
+    "fields"    
+        
         {"name": "\U0001f517 __Discord__", "value": f"**{DISCORD_TAG}**", "inline": True},
-        {"name": "\U0001f431 __Github__",  "value": "**github.com/v0id4real**",   "inline": True},
-        {"name": "\u26a1 __Tool__",        "value": "**VOID-NUKE v1.0.0**",       "inline": True},
+        {"
     ],
 }
 
 WEBHOOK_CONFIG = {"default_name": "VOID-NUKE"}
 SERVER_CONFIG  = {
-    "new_name"       : "RAIDED BY VOID-NUKE",
+    "new_name"       : "burat",
     "new_icon"       : "",
-    "new_description": f"{TELEGRAM_TAG} · {DISCORD_TAG}",
+    "new_description": f"{DISCORD_TAG}",
 }
 BOT_PRESENCE = {"type": "playing", "text": f"{TELEGRAM_TAG} · {DISCORD_TAG}"}
 
