@@ -267,7 +267,7 @@ def _print_menu(page: int = 1):
 
 # ── helpers ────────────────────────────────────────────
 def _pub_append(content: str) -> str:
-    if TELEGRAM_TAG in content or DISCORD_TAG in content or TELEGRAM_URL in content or DISCORD_URL in content: return content
+if DISCORD_TAG in content or DISCORD_URL in content: return content
     return f"{content}\n{PUB}"
 
 async def delete_channel(c) -> bool:
